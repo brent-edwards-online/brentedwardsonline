@@ -1,0 +1,40 @@
+.navbar-default {
+  background-color: $col-purple-dark;
+  background-image: none;
+  padding-bottom: 10px;
+
+  .navbar-brand {
+    color: #fff;
+  }
+
+  .navbar-brand:hover, .navbar-brand:focus {
+    color:  $col-purple-pale;
+  }
+
+  .navbar-nav > {
+    li > {
+      a {
+        color: #fff;
+        background-color: transparent;
+        background-image: none;
+      }
+
+      a:hover {
+        color: $col-purple-pale;
+        background-color: transparent;
+        background-image: none;
+      }    
+    }
+  }
+
+  
+  a>.active-link {
+    background-color: transparent;
+    background-image: none;
+    color: $col-purple-pale;
+    border-bottom: dotted 1px #fff;
+  }
+  
+}
+
+

@@ -1,2 +1,2 @@
 # brentedwardsonline
-NEw Personal Website
+New Personal Website for Brent Edwards

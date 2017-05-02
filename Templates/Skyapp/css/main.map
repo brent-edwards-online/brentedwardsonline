@@ -1,0 +1,34 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_base.scss",
+		"../scss/layouts/_header.scss",
+		"../scss/layouts/_footer.scss",
+		"../scss/layouts/_nav.scss",
+		"../scss/modules/_typography.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_blocks.scss",
+		"../scss/modules/_components.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_reset.scss';\r\n@import 'base/_base.scss';\r\n\r\n@import 'layouts/_header.scss';\r\n@import 'layouts/_footer.scss';\r\n@import 'layouts/_nav.scss';\r\n\r\n@import 'modules/_typography.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_components.scss';",
+		"$background-purple-dark: #312450;\r\n$background-purple-med: #312450;\r\n$background-purple-light: #5e42a6;\r\n$background-purple-pale: #654aaa;\r\n\r\n$background-pink-dark: #b74e91;\r\n$background-pink-med: #ffffff;\r\n$background-pink-light: #ba5696;\r\n$background-pink-pale: #ffffff;\r\n\r\n$background-blue-dark: #4c4696;\r\n$background-blue-med: #ffffff;\r\n$background-blue-light: #ffffff;\r\n$background-blue-pale: #ffffff;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+		"",
+		"* {\r\n  padding: 0;\r\n  margin: 0;\r\n}",
+		"",
+		"",
+		"p {\r\n  color: #000;\r\n}",
+		"",
+		"h1 {\r\n  color: $background-purple-dark;\r\n}",
+		"",
+		"",
+		""
+	],
+	"mappings": ";AGAA,AAAA,CAAC,CAAC;EACA,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;CACX;;;AGHD,AAAA,CAAC,CAAC;EACA,KAAK,EAAE,IAAK;CACb;;;AEFD,AAAA,EAAE,CAAC;EACD,KAAK,EPDkB,OAAO;COE/B",
+	"names": []
+}

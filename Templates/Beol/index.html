@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Media</title>
+		<meta charset="utf-8" />
+    
+    <script>
+     window.onresize = function(event) {
+       var h = document.getElementById('myh3');
+       h.innerHTML = "width: " + window.innerWidth;
+       console.log(h);
+      console.log(window.innerWidth);
+     };
+    </script>
+    
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial, sans-serif;
+      }
+      
+      
+      p {
+        color: blueviolet;
+      }
+      
+      .nav {
+        margin-top: 20px;
+        background-color: deeppink;
+        height: 4.0em;
+        padding-top:10px;
+        padding-right: 1px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        
+      }
+      
+      nav {
+        width: 200px;
+        
+      }
+      
+      nav ul {
+       float: left: 
+      }
+      
+      nav ul li {
+        
+        border-width: 1px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #312450;
+      }
+      
+      nav ul li:hover {
+        border-bottom: dotted #fff 1px; 
+        background-color: #4c4ead;     
+      }
+      
+      nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+      }
+       
+      nav ul li:hover a {
+        color: #312450;
+      }
+      
+      @media screen and (min-width: 0px){
+        p {
+          display: block;
+        }
+        p::after {
+          content: 'xxxs-0';
+        }
+      }
+      @media screen and (min-width: 389px){
+        p {
+          display: block;
+        }
+        p::after {
+          content: 'xxs-389';
+        }
+      }
+      @media screen and (min-width: 480px){
+        p {
+          display: block;
+        }
+        p::after {
+          content: 'xs-480';
+        }
+      } 
+      @media screen and (min-width: 768px){
+        p {
+          display: block;
+        }
+        p::after {
+          content: 'sm-768';
+        }
+      } 
+      @media screen and (min-width: 992px){
+        p {
+          display: block;
+        }
+        p::after {
+          content: 'md-992';
+        }
+      } 
+      @media screen and (min-width: 1200px){
+        p {
+          display: block;
+        }
+        p::after {
+          content: 'lg-1200';
+        }
+      } 
+      
+      .main-div {
+        background-color: deepskyblue;
+      }
+      
+      .main-div div {
+        margin: 0px;
+        padding: 0px;
+        height: 100px;
+        width: 100px;
+        border: solid 1px 
+      }
+      
+      .main-div div:last-child {
+        background-color: aqua;
+        display: inline-block;
+      }
+      .main-div div:nth-child(3) {
+        display: inline-block;
+        background-color: deeppink;
+      }
+      .main-div div:nth-child(2) {
+        display: inline-block;
+        background-color: gold;
+      }
+      .main-div div:first-child {
+        display: inline-block;
+        background-color: blueviolet;
+      }
+      
+    </style>
+    
+  </head>
+  <body>
+    <p>This is some text - </p>
+    <h3 id="myh3">Heading</h3>
+    
+    <div class="nav">
+      <h2>Navigation</h2>
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tech</a></li>
+        <li><a href="#">Fitness</a></li>
+        <li><a href="#">Qualifications</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    
+    
+    <div class="main-div">
+      <div id="div00">div00</div>
+      <div id="div01">div01</div>
+      <div id="div02">div02</div>
+      <div id="div03">div03</div>
+    </div>
+  </body>
+  
+</html>

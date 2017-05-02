@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipDefaultLibCheck": true,
+    "lib": [ "es6", "dom" ],
+    "types": [ "node" ]
+  },
+  "files": [
+    "ClientApp/app/modules/app-module/app.module.ts",
+    "ClientApp/app/modules/auth-module/auth.module.ts",
+    "ClientApp/app/modules/tech-module/tech.module.ts"
+  ],
+  "exclude": [ "bin", "node_modules" ],
+  "atom": { "rewriteTsconfig": false }
+}

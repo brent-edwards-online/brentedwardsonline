@@ -1,0 +1,17 @@
+/* line 1, D:/Development/Git-Repository/brentedwardsonline/Templates/Skyapp/scss/base/_reset.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 1, D:/Development/Git-Repository/brentedwardsonline/Templates/Skyapp/scss/layouts/_footer.scss */
+p {
+  color: #000;
+}
+
+/* line 1, D:/Development/Git-Repository/brentedwardsonline/Templates/Skyapp/scss/modules/_typography.scss */
+h1 {
+  color: #312450;
+}
+
+/*# sourceMappingURL=../css/main.map */
