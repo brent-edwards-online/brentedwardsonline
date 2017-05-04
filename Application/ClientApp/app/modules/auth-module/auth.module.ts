@@ -1,3 +1,4 @@
+/// <reference path="../work-module/work.module.ts" />
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';

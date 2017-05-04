@@ -21,6 +21,12 @@ export const AppRouter: Routes = [
             return Promise.resolve(require('../tech-module/tech.module')['TechModule']);
         }
     },
+    {
+        path: 'work',
+        loadChildren: () => {
+            return Promise.resolve(require('../work-module/work.module')['WorkModule']);
+        }
+    },
     { path: '**', redirectTo: 'home' },
 ];
 

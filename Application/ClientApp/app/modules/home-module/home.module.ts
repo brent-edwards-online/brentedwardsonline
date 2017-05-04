@@ -5,12 +5,12 @@ import { HomeRoutes } from "./home.router";
 import { RouterModule } from '@angular/router';
 
 import { HomeComponent } from './component/home/home.component';
-import { LandingComponent } from './component/landing/landing.component';
+import { WelcomeComponent } from './component/welcome/welcome.component';
 
 @NgModule({
     declarations: [
         HomeComponent,
-        LandingComponent
+        WelcomeComponent
     ],
     imports: [
         FormsModule,

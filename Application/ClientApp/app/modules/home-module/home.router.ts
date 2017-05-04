@@ -2,7 +2,7 @@
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './component/home/home.component';
-import { LandingComponent } from './component/landing/landing.component';
+import { WelcomeComponent } from './component/welcome/welcome.component';
 
 export const HomeRouter: Routes = [
     {
@@ -11,12 +11,12 @@ export const HomeRouter: Routes = [
         children: [
             {
                 path: '',
-                redirectTo: 'landing',
+                redirectTo: 'welcome',
                 pathMatch: 'full'
             },
             {
-                path: 'landing',
-                component: LandingComponent
+                path: 'welcome',
+                component: WelcomeComponent
             }
         ]
     }
