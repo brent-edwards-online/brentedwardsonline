@@ -1,0 +1,96 @@
+﻿@import '../../../../../scss/main.scss';
+
+.glyphicon {
+    margin-right: 20px;
+}
+
+.navigation-container {
+    background-color: $col-purple-dark;
+    height: 100%;
+    
+}
+
+.nav-brand {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.nav-brand > li {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.nav-brand, .menu-list {
+    list-style: none;
+    overflow: hidden; /*Top Nav*/
+}
+
+.nav-brand > li, .menu-list > li {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    float: left; /*Top Nav*/
+    background-color: $col-purple-dark;
+}
+
+.menu-list > li:hover {
+    background-color: $col-purple-med;
+}
+
+.menu-list > li:hover > a {
+}
+
+.nav-brand > li > a, .menu-list > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.nav-brand > li > a {
+    font-size: 1.4em;
+    text-transform: none;
+}
+
+div.selected {
+    height: 3px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+
+div.selected.active {
+    background-color: $col-purple-med;
+    background-image: -webkit-gradient(linear, left top, left bottom, from($col-purple-med), to($col-pink-dark));
+    background-image: -webkit-linear-gradient(left, $col-purple-med, $col-pink-dark);
+    background-image: -moz-linear-gradient(left, $col-purple-med, $col-pink-dark);
+    background-image: -o-linear-gradient(left, $col-purple-med, $col-pink-dark);
+}
+
+/*
+@media only screen and ( max-width: $boot-md) {
+    .nav-brand {
+        display: block;
+        width: 100%;
+    }
+
+    .menu-list {
+        display: block;
+        width: 100%;
+    }
+    
+    .nav-brand > li {
+        float: none;
+    }
+
+    .menu-list > li {
+        float: none;
+        display: none;
+    }
+}
+*/

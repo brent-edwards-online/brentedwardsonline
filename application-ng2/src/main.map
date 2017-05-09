@@ -1,0 +1,28 @@
+{
+	"version": 3,
+	"file": "scss/main.css",
+	"sources": [
+		"scss/main.scss",
+		"scss/base/_variables.scss",
+		"scss/base/_mixins.scss",
+		"scss/base/_reset.scss",
+		"scss/base/_base.scss",
+		"scss/modules/_typography.scss",
+		"scss/modules/_buttons.scss",
+		"scss/modules/_blocks.scss",
+		"scss/modules/_components.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_reset.scss';\r\n@import 'base/_base.scss';\r\n\r\n@import 'modules/_typography.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_components.scss';\r\n",
+		"$col-purple-dark: #312450;\r\n$col-purple-med: #493382;\r\n$col-purple-light: #5e42a6;\r\n$col-purple-pale: #654aaa;\r\n\r\n$col-pink-dark: #b74e91;\r\n$col-pink-med: #ffffff;\r\n$col-pink-light: #ba5696;\r\n$col-pink-pale: #ffffff;\r\n\r\n$col-blue-dark: #4c4696;\r\n$col-blue-med: #ffffff;\r\n$col-blue-light: #ffffff;\r\n$col-blue-pale: #ffffff;\r\n\r\n$nav-bar-height: 100px;\r\n\r\n$boot-lg: 1200px;\r\n$boot-md: 992px;\r\n$boot-sm: 768px;\r\n$boot-xs: 480px;\r\n$boot-xxs: 389px;\r\n$boot-xxxs: 282px;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+		"",
+		"* {\r\n  padding: 0;\r\n  margin: 0;\r\n}",
+		"body {\r\n    padding: 0;\r\n    margin: 0;\r\n    background-color: $col-purple-dark;\r\n}\r\n\r\nh1, h2, h3, h4, h5, h6, a, p {\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  color: #fff;\r\n}",
+		"",
+		"",
+		"",
+		""
+	],
+	"mappings": ";AGAA,AAAA,CAAC,CAAC;EACA,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;CACX;;;ACHD,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;EACV,gBAAgB,EHHF,OAAO;CGIxB;;;AAED,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,CAAC,EAAE,AAAA,CAAC,CAAC;EAC3B,WAAW,EAAE,4BAA6B;EAC1C,KAAK,EAAE,IAAK;CACb",
+	"names": []
+}

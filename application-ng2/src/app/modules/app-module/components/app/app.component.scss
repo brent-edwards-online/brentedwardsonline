@@ -1,0 +1,7 @@
+﻿@import '../../../../../scss/main.scss';
+
+@media only screen and ( max-width: $boot-sm) {
+    router-outlet {
+        margin-top: 100px;
+    }
+}
